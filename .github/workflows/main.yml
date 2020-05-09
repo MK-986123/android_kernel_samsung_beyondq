@@ -1,7 +1,0 @@
-    - name: Kernel Configure
-      run: |
-        ./build config           
-                model=G9750    
-                name="WETA-MOD NETHUNTER"
-                +magisk+canary              
-                +cifs            
