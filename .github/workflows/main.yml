@@ -1,15 +1,9 @@
-    - name: Kernel Configure
-      run: |
-        ./build config           
-                model=G9730      
-                name="MK-NETHUNTER10"
-                +magisk          
-                +nohardening     
-                +ttl             
-                +wireguard       
-                +cifs            
-                +sdfat           
-                +ntfs            
-                +tcp_cibuc       
-                +morosound       
-                +boeffla_wl_blocker
+- name ""
+./build config
+os_patch_level=2020-04-01
+model=G9750
+name="OwnKernel"
++magisk+canary
++wireguard
++nohardening
++1000hz
